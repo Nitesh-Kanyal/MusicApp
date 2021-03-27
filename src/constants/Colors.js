@@ -1,0 +1,30 @@
+const Colors = {
+  Secondary: '#3c6ccb',
+  Violet: '#4e2a77',
+  DarkGray: '#393B3B',
+  White: '#FFFFFF',
+  Blue: '#020E31',
+  Placehoder: '#707070',
+  ListBorder: '#B4C9CC',
+  Green: '#8BCC82',
+  DarkRed: '#F02000',
+  Black: '#000000',
+  Primary: '#5280DB',
+  CardColor: '#F6F7FF',
+  PrimaryTextColor: '#1545A3',
+  BorderPrimaryColor: '#E6E9FF',
+  GradientPrimary: '#608EE8',
+  GradientSecondary: '#1343A1',
+  textGray: '#A8A8A8',
+  textGrayDark: '#5E5E5E',
+  buttonLightBlue: '#F6F7FF',
+  textInputPlaceholder: '#C7C7C7',
+  borderGrayColor: '#E8E8E8',
+  borderTable: '#E5E5E5',
+  tableContentText: '#5B5B5B',
+  modalGrayText: '#878787',
+
+  ButtonGradients: '#00B3B6',
+};
+
+export default Colors;
