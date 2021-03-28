@@ -27,6 +27,7 @@ const SongsList = (props) => {
 		setLoader(true);
 		getCall(ApiUrls.getSongs)
 			.then((response) => {
+				console.log("All Songs=>>", response?.results);
 				setTimeout(() => {
 					setLoader(false);
 					setSongs(response?.results);
@@ -38,17 +39,28 @@ const SongsList = (props) => {
 	};
 
 	const renderSongsList = ({ item, index }) => {
-		return <SongCard item={item} index={index} navigation={navigation} />;
+		return (
+			<SongCard
+				item={item}
+				index={index}
+				navigation={navigation}
+				songsList={songsList}
+			/>
+		);
 	};
 
 	return (
 		<View style={Styles.container}>
-			<Header title="SONGS" statusBarType="light-content" />
+			<Header
+				title="SONGS"
+				statusBarType="light-content"
+				bgColor={Constants.Colors.Secondary}
+			/>
 			<View style={{ flex: 1 }}>
 				{loader ? (
 					<View
 						style={{
-							height: moderateScale(500),
+							flex: 1,
 							alignItems: "center",
 							justifyContent: "center",
 						}}

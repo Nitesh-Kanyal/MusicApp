@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* reactNative63StarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactNative63StarterTests.m */; };
 		02D33F27D02B0C985D01E658 /* libPods-reactNative63Starter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 581BFD722807C5E80B95C2C7 /* libPods-reactNative63Starter.a */; };
@@ -20,6 +19,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A4103AD857BA5E0D274DFC12 /* libPods-reactNative63Starter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B1047C3BAC087A83C5288F /* libPods-reactNative63Starter-tvOSTests.a */; };
 		C68105CFA3EF73ABA6131E5B /* libPods-reactNative63Starter-reactNative63StarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D12CAB9C3601DBB6CB70BEB /* libPods-reactNative63Starter-reactNative63StarterTests.a */; };
+		D7999F681CFD408EB92A27EB /* RNPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97273BBBA940E7A470033B /* RNPlaceholder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +67,7 @@
 		F8D4E57B02A19D75C54B4D6D /* Pods-reactNative63Starter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNative63Starter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactNative63Starter-tvOSTests/Pods-reactNative63Starter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9E70F1BCD803D404085E6D9 /* Pods-reactNative63Starter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNative63Starter.release.xcconfig"; path = "Target Support Files/Pods-reactNative63Starter/Pods-reactNative63Starter.release.xcconfig"; sourceTree = "<group>"; };
 		FF5561F8C94F788645784560 /* Pods-reactNative63Starter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNative63Starter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactNative63Starter-tvOS/Pods-reactNative63Starter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0E97273BBBA940E7A470033B /* RNPlaceholder.swift */ = {isa = PBXFileReference; name = "RNPlaceholder.swift"; path = "RNPlaceholder.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -624,6 +625,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* reactNative63StarterTests.m in Sources */,
+				D7999F681CFD408EB92A27EB /* RNPlaceholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +635,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				D7999F681CFD408EB92A27EB /* RNPlaceholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +645,7 @@
 			files = (
 				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
 				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+				D7999F681CFD408EB92A27EB /* RNPlaceholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +654,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCD954D1E0B4F2C00145EB5 /* reactNative63StarterTests.m in Sources */,
+				D7999F681CFD408EB92A27EB /* RNPlaceholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +694,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNative63Starter.app/reactNative63Starter";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -709,6 +715,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNative63Starter.app/reactNative63Starter";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -730,7 +737,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.musicApp;
 				PRODUCT_NAME = reactNative63Starter;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -751,7 +758,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.musicApp;
 				PRODUCT_NAME = reactNative63Starter;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -781,6 +788,7 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -809,6 +817,7 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -836,6 +845,7 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNative63Starter-tvOS.app/reactNative63Starter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -863,6 +873,7 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNative63Starter-tvOS.app/reactNative63Starter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -923,6 +934,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -976,6 +988,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
